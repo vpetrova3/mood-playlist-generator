@@ -1,35 +1,51 @@
-# Mood-Based Playlist Generator
+# 🎧 Mood-Based Playlist Generator
 
-A fun web app that detects your mood from a short message and recommends a Spotify playlist to match.
+A web app that detects your mood using **text input** or **facial emotion recognition** and recommends a matching Spotify playlist.
 
+Built with Flask, Spotipy, and DeepFace.
 
-## Features
-- Detects mood from text input (e.g. "I'm feeling relaxed")
-- Matches your mood to curated Spotify playlists
-- Built with Flask, Python, JavaScript, and the Spotify Web API
+## 🚀 Live Demo
 
-## How It Works
-1. You type how you're feeling.
-2. The app classifies your mood using simple NLP.
-3. A Spotify playlist opens based on your mood.
+**Coming soon!** (Let me know if you want help deploying it with Render or Replit)
 
-## Technologies Used
-- Python (Flask)
-- Spotify API (`spotipy`)
-- JavaScript (fetch API)
-- HTML/CSS
-- dotenv for API key security
+...
 
-## Getting Started
+---
 
-### Prerequisites
-- Python 3.x
-- pip
+## 💡 Features
 
-### Setup Instructions
+- 🧠 Detect mood from your typed message
+- 📸 Detect mood from your webcam using facial expression
+- 🎵 Get an automatically curated Spotify playlist to match your mood
+- ⚙️ Built using Python, Flask, JavaScript, Spotify API, DeepFace
+
+---
+
+## 🚀 Live Demo
+
+**Coming soon!** (Let me know if you want help deploying it with Render or Replit)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Python, Flask
+- **APIs:** Spotify Web API via `spotipy`
+- **AI:** Facial emotion recognition with `deepface`
+- **Other:** OpenCV, dotenv
+
+---
+
+## 🖥️ Screenshots
+
+*Will soon insert images or demo GIF here when ready*
+
+---
+
+## 📦 Installation & Setup
+
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/YOUR_USERNAME/mood-playlist-generator.git
 cd mood-playlist-generator
-python -m venv venv
-source venv/bin/activate     # or venv\Scripts\activate on Windows
-pip install -r requirements.txt
