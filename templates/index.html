@@ -1,17 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Mood Playlist Generator</title>
-    <link rel="stylesheet" href="/static/style.css">
+  <meta charset="UTF-8">
+  <title>Mood Playlist Generator</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
 </head>
-<body>
-    <div class="container">
-        <h1>Mood-Based Playlist Generator</h1>
-        <textarea id="moodInput" placeholder="Describe your mood..." rows="4"></textarea>
-        <button onclick="generatePlaylist()">Generate Playlist</button>
-        <div id="result"></div>
+<body class="bg-light">
+  <div class="container py-5">
+
+    <h1 class="text-center mb-5">🎶 Mood Playlist Generator</h1>
+
+    <div class="row g-4">
+      <!-- Text input card -->
+      <div class="col-md-6">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Describe via Text</h5>
+            <textarea id="moodInput" class="form-control mb-3"
+                      placeholder="e.g. I'm feeling energetic…" rows="3"></textarea>
+            <button class="btn btn-success w-100" onclick="generateTextPlaylist()">
+              Generate
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Face detection card -->
+      <div class="col-md-6">
+        <div class="card shadow-sm">
+          <div class="card-body text-center">
+            <h5 class="card-title">Use Your Webcam</h5>
+            <button class="btn btn-primary w-100" onclick="generateFacePlaylist()">
+              Detect Face Mood
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
-    <script src="/static/script.js"></script>
+
+    <!-- Results -->
+    <div id="result" class="mt-5"></div>
+  </div>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  ></script>
+  <script src="/static/script.js"></script>
 </body>
 </html>
