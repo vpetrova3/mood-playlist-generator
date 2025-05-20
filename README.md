@@ -49,3 +49,6 @@ Built with Flask, Spotipy, and DeepFace.
 ```bash
 git clone https://github.com/YOUR_USERNAME/mood-playlist-generator.git
 cd mood-playlist-generator
+python -m venv venv
+source venv/bin/activate     # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
