@@ -4,7 +4,7 @@ A web app that detects your mood using **text input** or **facial emotion recogn
 
 Built with Flask, Spotipy, and DeepFace.
 
-## 🚀 Live Demo
+## Live Demo
 
 **Coming soon!** (Let me know if you want help deploying it with Render or Replit)
 
@@ -12,7 +12,7 @@ Built with Flask, Spotipy, and DeepFace.
 
 ---
 
-## 💡 Features
+## Features
 
 - 🧠 Detect mood from your typed message
 - 📸 Detect mood from your webcam using facial expression
@@ -21,13 +21,13 @@ Built with Flask, Spotipy, and DeepFace.
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
-**Coming soon!** (Let me know if you want help deploying it with Render or Replit)
+**Coming soon!** (Let me know if you want help deploying it)
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Python, Flask
@@ -37,13 +37,13 @@ Built with Flask, Spotipy, and DeepFace.
 
 ---
 
-## 🖥️ Screenshots
+## Screenshots
 
 *Will soon insert images or demo GIF here when ready*
 
 ---
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
