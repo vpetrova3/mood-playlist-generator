@@ -1,6 +1,6 @@
 # 🎧 Mood-Based Playlist Generator
 
-A web app that detects your mood using **text input** or **facial emotion recognition** and recommends a matching Spotify playlist.
+A web app that detects your mood using **text input** or **facial emotion recognition** and recommends a matching Spotify playlist. Inspired by facial recognition apps, but with a little creative twist.
 
 Built with Flask, Spotipy, and DeepFace.
 
